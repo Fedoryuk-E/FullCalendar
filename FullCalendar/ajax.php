@@ -1,7 +1,7 @@
 <?php
 $db = mysql_pconnect('sql113.byethost9.com', 'b9_17158999', 'Qwerty');
 mysql_select_db('b9_17158999_fullcalendar');
-/* для решения проблемы с русскими символами */
+
 mysql_query("SET NAMES 'utf8'");
 $start = $_POST['start'];
 $end = $_POST['end'];
